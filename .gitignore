@@ -61,6 +61,13 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+test_payments.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# macOS
+.DS_Store
 
 # Flask stuff:
 instance/
